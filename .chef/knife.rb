@@ -4,6 +4,6 @@ current_dir = File.dirname(__FILE__)
 log_level                :info
 log_location             STDOUT
 node_name                "rwalsh"
-client_key               "#{current_dir}/rwalsh.pem"
+client_key               "/home/user/chef-repo/.chef/rwalsh.pem"
 chef_server_url          "https://rwalsh37111.mylabserver.com/organizations/laborg"
 cookbook_path            ["#{current_dir}/../cookbooks"]
